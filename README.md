@@ -23,7 +23,7 @@ Minimales Frontend-Projekt mit einer zentrierten Schaltfläche. Ein Klick löst 
 
 1. Repository klonen:
   ```bash
-   git clone <url-deines-repos>
+   git clone https://github.com/SaweliKudasow/Confetti.git
    cd Confetti
   ```
 2. `index.html` im Browser öffnen (z. B. per Doppelklick oder mit einem lokalen Server).
