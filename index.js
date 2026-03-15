@@ -3,9 +3,11 @@ const https = require("https");
 const fs = require("fs");
 const path = require("path");
 
+const certPath = path.join(__dirname, "..", "Proxy", "certs");
+
 const options = {
-  key: fs.readFileSync("certificates/key.pem"),
-  cert: fs.readFileSync("certificates/cert.pem"),
+  key: fs.readFileSync(path.join(certPath, "privkey.pem")),
+  cert: fs.readFileSync(path.join(certPath, "fullchain.pem")),
 };
 
 function handler(req, res) {
