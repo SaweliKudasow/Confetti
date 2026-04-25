@@ -1,49 +1,49 @@
 # 🎉 Confetti
 
-Eine Webseite mit einer Knopf-Animation: Beim Klicken erscheint buntes Konfetti.
+A webpage with a button animation: colorful confetti appears when you click.
 
 ---
 
-## ✨ Beschreibung
+## ✨ Description
 
-Minimales Frontend-Projekt mit einer zentrierten Schaltfläche. Ein Klick löst eine Konfetti-Animation aus – ohne zusätzliche Abhängigkeiten im Projekt, die Bibliothek wird per CDN geladen.
+Minimal frontend project with a centered button. A click triggers a confetti animation - no additional project dependencies required; the library is loaded via CDN.
 
 ---
 
-## 🛠 Technologien
+## 🛠 Technologies
 
 - **HTML5**
-- **CSS3** (Flexbox, einfaches Styling)
-- **JavaScript** (Vanilla JS, Event-Listener)
-- **[js-confetti](https://github.com/loonywizard/js-confetti)** (CDN) für die Konfetti-Animation
+- **CSS3** (Flexbox, simple styling)
+- **JavaScript** (Vanilla JS, event listeners)
+- **[js-confetti](https://github.com/loonywizard/js-confetti)** (CDN) for the confetti animation
 
 ---
 
-## 🚀 Projekt starten
+## 🚀 Run the Project
 
-1. Repository klonen:
+1. Clone the repository:
   ```bash
    git clone https://github.com/SaweliKudasow/Confetti.git
    cd Confetti
   ```
-2. `index.html` im Browser öffnen (z. B. per Doppelklick oder mit einem lokalen Server).
+2. Open `index.html` in your browser (e.g., by double-clicking it or using a local server).
 
-Keine Installation oder Build-Schritte nötig.
+No installation or build steps required.
 
 ---
 
-## 📁 Projektstruktur
+## 📁 Project Structure
 
 ```
 Confetti/
-├── index.html    # Einstiegsseite mit Button
+├── index.html    # Entry page with button
 ├── style.css     # Layout & Styling
-├── main.js       # Konfetti-Logik beim Klick
-└── README.md     # Diese Datei
+├── main.js       # Confetti logic on click
+└── README.md     # This file
 ```
 
 ---
 
-## 📄 Lizenz
+## 📄 License
 
-Frei nutzbar für private und Lernzwecke.
+Free to use for personal and learning purposes.
